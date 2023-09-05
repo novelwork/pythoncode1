@@ -1,6 +1,7 @@
-leader : teguh
+leader : teguh firmansyah2
 staff  :
 konne
 black
 uto
 sky
+=
