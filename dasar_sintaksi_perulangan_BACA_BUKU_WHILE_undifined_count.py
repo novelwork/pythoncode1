@@ -1,5 +1,5 @@
 """
-program perulangan baca buku Metode WHILE sampai paham
+program perulangan baca buku Metode WHILE sampai paham dan punya kata perintah henti
 """
 
 jumlah_buku = 10
