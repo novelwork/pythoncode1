@@ -61,3 +61,27 @@ daftar_buku.pop(-4)
 for i in range (0, len(daftar_buku)):
     print(daftar_buku[i])
 
+print('\nPerintah del')
+daftar_buku  = ['Seven habits', 'How to influence people','first things first', '4dx']
+del daftar_buku[0] #Menghapus elemen tertentu
+for i in range (0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print('\nPerintah list dengan list comprehension')
+daftar_buku  = ['Seven habits', 'How to influence people','first things first', '4dx']
+del daftar_buku [:] #Menghapus semua elemen
+for i in range (0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print('\nPerintah list dengan list comprehension start')
+daftar_buku  = ['Seven habits', 'How to influence people','first things first', '4dx']
+del daftar_buku [0:3] #Start:end #kalau menggunkan - berarti di barisan tertentu tidak terhapus
+for i in range (0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print('\nPerintah list dengan list comprehension STEP')
+daftar_buku  = ['Seven habits', 'How to influence people','first things first', '4dx']
+del daftar_buku [0::3] #START:END:STEP #Perintah menghapus dengan melangkah beberapa baris tertentu
+for i in range (0, len(daftar_buku)):
+    print(daftar_buku[i])
+
