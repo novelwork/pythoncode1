@@ -83,5 +83,5 @@ print('\nPerintah list dengan list comprehension STEP')
 daftar_buku  = ['Seven habits', 'How to influence people','first things first', '4dx']
 del daftar_buku [0::3] #START:END:STEP #Perintah menghapus dengan melangkah beberapa baris tertentu
 for i in range (0, len(daftar_buku)):
-    print(daftar_buku[i])
+    print(daftar_buku[i])#
 

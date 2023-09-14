@@ -53,4 +53,4 @@ for i in range (0, len(daftar_buku_baru)):
 
 print('\nMembuat list baru dengan comprehension genap simplfy')
 daftar_buku  = ['1 Seven habits', '2 How to influence people','3 first things first', '4 4dx']
-print(daftar_buku[0::2])
+print(daftar_buku[0::2])#
